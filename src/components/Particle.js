@@ -5,6 +5,7 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
+      style={{ pointerEvents: "none" }}
       params={{
         particles: {
           number: {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,48 +12,44 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a Computer Science student and Software Developer focused on
+              building intelligent, scalable systems that bridge research and
+              real-world applications.
               <br />
               <br />
-              I’m proficient in
+              As a <b className="purple">Software Developer Intern</b>, I built
+              a dashboard messaging system using Angular, .NET, and AWS —
+              migrating 200+ messages to DynamoDB and contributing to cost
+              savings of over $12,000 annually.
+              <br />
+              <br />
+              As an <b className="purple">Undergraduate Research Assistant</b>,
+              I developed image segmentation pipelines using Python and
+              PaddleSeg to analyze environmental properties and their
+              relationship to human perception.
+              <br />
+              <br />I enjoy working with
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, TypeScript, Python, Java, Angular, .NET, and
+                  AWS{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I’m especially interested in AI-driven applications,
+              computer vision, and full-stack development.
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Beyond software, I’ve also built immersive VR research
+              environments in Unity to support experimental data collection.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>
     </Container>
   );
 }
+
 export default Home2;

@@ -8,37 +8,47 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi! I’m <span className="purple">Sebastian Joseph</span>, a Computer
+            Science student at <span className="purple">Kean University</span>{" "}
+            graduating May 2026.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            <br />I specialize in{" "}
+            <span className="purple">AI-driven software development</span>,
+            full-stack engineering, and research-focused computer vision.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I’ve worked as a{" "}
+            <span className="purple">Software Developer Intern</span> building
+            scalable dashboard systems using Angular, .NET, and AWS — helping
+            save over <span className="purple">$12,000 annually</span> through
+            system improvements.
+            <br />
+            <br />
+            As an{" "}
+            <span className="purple">Undergraduate Research Assistant</span>, I
+            developed image segmentation pipelines using Python and PaddleSeg to
+            analyze environmental features and psychological perception.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> AI & Computer Vision Research
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Full-Stack Web Development
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> VR Environment Development in Unity
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Building tools that solve real-world problems
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Build systems that scale. Build tools that matter."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Sebastian</footer>
         </blockquote>
       </Card.Body>
     </Card>
